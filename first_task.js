@@ -42,8 +42,8 @@ console.log(divider(3, 2)); // виведе у консоль false
 /* 4. Написати функцію, яка рекурсивно виводить в консоль аргумент та збільшує його на 2 якщо аргумент не
 перевищує за значенням число 10 */
 function recursiveAddition(value) {
-    return value;
-    if (value < 10) {
+    if (value <= 10) {
+        console.log(value);
         recursiveAddition(value + 2);
     }
 }
