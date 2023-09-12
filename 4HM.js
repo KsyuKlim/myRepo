@@ -1,4 +1,4 @@
-import { Dev } from "./modules/dev.js";
+import { Devi } from "./modules/devi.js";
 import { PM } from "./modules/pm.js";
 import Employee from "./modules/employee.js";
 
