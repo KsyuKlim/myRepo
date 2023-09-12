@@ -1,14 +1,14 @@
-import { Employee } from ".modules/employee.js";
+import { Employee } from "/employee.js";
 
-class Devi extends Employee {
+class Dev extends Employee {
   getJobType() {
     return "I am a Dev";
   }
 }
 
-export { Devi };
+export { Dev };
 
-class Devi extends Employee {
+class Dev extends Employee {
   constructor(id, salary) {
     super(id, salary);
     Object.defineProperty(this, "id", { writable: false });
@@ -19,4 +19,4 @@ class Devi extends Employee {
   }
 }
 
-export { Devi };
+export { Dev };
