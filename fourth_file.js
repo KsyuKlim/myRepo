@@ -1,5 +1,5 @@
 import { Dev } from "./modules/dev.js";
-import { PM } from "./modules/modules/pm.js";
+import { PM } from "./modules/pm.js";
 import { Employee } from "./modules/employee.js";
 
 const dev = new Dev(1, 2000);
