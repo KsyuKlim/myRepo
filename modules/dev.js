@@ -1,4 +1,4 @@
-import { Employee } from "/employee.js";
+import Employee from './employee.js';
 
 class Dev extends Employee {
   getJobType() {
@@ -7,4 +7,3 @@ class Dev extends Employee {
 }
 
 export { Dev };
-
