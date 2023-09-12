@@ -15,4 +15,4 @@ class Employee {
   }
 }
 
-export {Employee};
+export default Employee;
