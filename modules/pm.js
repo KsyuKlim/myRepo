@@ -1,4 +1,4 @@
-import Employee from './employee.js';
+import { Employee } from './employee.js';
 
 class PM extends Employee {
   getJobType() {

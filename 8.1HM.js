@@ -1,6 +1,6 @@
 import { Dev } from "./modules/dev.js";
 import { PM } from "./modules/pm.js";
-import Employee from "./modules/employee.js";
+import { Employee } from "./modules/employee.js";
 
 const dev = new Dev(1, 2000);
 const pm = new PM(2, 2500);
