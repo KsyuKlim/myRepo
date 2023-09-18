@@ -36,3 +36,8 @@ export async function post(url, body, headers) {
     throw error;
   }
 }
+
+export const apiHelper = {
+  get,
+  post,
+};
