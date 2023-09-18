@@ -1,4 +1,4 @@
-import * as apiHelper from "./api_helper.js";
+import * as apiHelper from "./api_helper/api_helper.js";
 
 const baseUrl = "https://jsonplaceholder.typicode.com/posts/";
 
